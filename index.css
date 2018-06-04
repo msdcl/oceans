@@ -1,243 +1,80 @@
 :root{
-    font-size: 15px;
+    font-size: 20px;
+    
 }
-body{
-    background-color:#EDB5BF;
-    margin:0;
-}
-.container{
-    display: block;
-    margin:5%;
-    color:black;
-    background-color: rgb(185, 240, 237);
-}
-#heading{
-    position: relative;
-    color: white;
-    height: 63vh;
-   text-align: center;
-    border: 3px solid salmon;
-}
-/* #heading h1{
-     position: relative;
-    top: 1%;
-    left: 20%;
-    font-size: 3rem;
-    color:#FFFFFF;
-} */
-.background{
+.footer {
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    height:100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5; 
 }
-.personel-info{
-    border: 3px solid salmon;
-    display: flex;
-    margin-top: 3%;
-    
-}
-#about-me{
-    
-    padding-left: 10px;
-    width: 70%;
-    margin-left: 1%;
-}
- .h2{
-    color:#080808;
-    font-size: 2.5rem;
-}
-.h3{
-    color:#080808;
-    font-size: 2rem;
-}
-.p{
-    font-size: 1.3rem;
-}
-.li{
-    font-size: 1.3rem;
-}
-#image{
-    
-     margin-left: 5%;
-    
-    width:25vw; 
-}
-.myimage{
-    width: 100%;
+html,body{
     height: 100%;
 }
-.experience{
-    margin-top: 3%;
-    border: 3px solid salmon;
-    padding-left: 10px;
-   
+.bound{
+    border: 1px solid black;
+    background-color: #989695;
+    color: #f5f5f5;
 }
-.project{
-    margin-top: 3%;
+.h5{
     border: 3px solid salmon;
-    padding-left: 10px;
-   
+    color:#59a454;
+    font-size: 2rem;
 }
-.technology-interest{
-    margin-top: 3%;
-    border: 3px solid salmon;
-    padding-left: 10px;
-  
-} 
-.contact-details{
-    margin-top: 3%;
-    border: 3px solid salmon;
-    padding-left: 10px;
-  
-}
- 
- @media only  screen and (min-width:700px) and (max-width:830px) {
-    #heading{
-     height: 50vh;
-    } 
-    .h2{
-       font-size: 2rem;
-    }
-    .h3{
-        font-size: 1.5rem;
-    }
-    .li{
-        font-size: 1rem;
-    }
-    .p{
-        font-size: 1rem;
-    }
- }
 
- @media only  screen and (min-width:660px) and (max-width:700px) {
-    #heading{
-     height: 50vh;
-    } 
-    .h2{
-       font-size: 1.7rem;
-    }
-    .h3{
-        font-size: 1.1rem;
-    }
-    .li{
-        font-size: 1rem;
-    }
-    .p{
-        font-size: 1rem;
-    }
- }
 
-@media only screen and (min-width:550px) and (max-width: 660px) {
-    #heading{
-        height: 35vh;
-       } 
-       .h2{
-          font-size: 1.5rem;
-       }
-       .h3{
-           font-size: 1.2rem;
-       }
-       .li{
-           font-size: 1rem;
-       }
-       .p{
-           font-size: 1rem;
-       }
-       .myimage{
-        width: 100%;
-    }
-    #image{
+.container-fluid{
     
-        margin-left: 2%;
-       
-       width:30vw; 
-   }
-} 
-@media only screen and (min-width:460px) and (max-width:550px) {
-    #heading{
-        height: 35vh;
-       } 
-       .h2{
-          font-size: 1.2rem;
-       }
-       .h3{
-           font-size: 1.1rem;
-       }
-       .li{
-           font-size: 1rem;
-       }
-       .p{
-           font-size: 1rem;
-       }
-       .myimage{
-        width: 100%;
-      
-    }
-    #image{
-    
-        margin-left: 1%;
-       
-       width:35vw; 
-   }
- }
-@media only screen and (min-width:290px)and (max-width: 460px) {
-    #heading{
-        
-        height: 40vh;
-       } 
-    .personel-info{
-        flex-direction: column;
-    }
-    #image {
-        order: -1;
-    }
-    #image {
-        width: 60vw;
-    }
-    #about-me{
-        width: 80vw;
-    }
-    .h2{
-        font-size: 1.2rem;
-     }
-     .h3{
-         font-size: 1.1rem;
-     }
-     .li{
-         font-size: 1rem;
-     }
-     .p{
-         font-size: 1rem;
-     }
+    min-height: 100%;
+    height: 100%;
+    background-color: #dfdfdf;
 }
-
-@media only screen and  (max-width: 290px) {
-    #heading{
-        
-        height: 40vh;
-       } 
-    .personel-info{
-        flex-direction: column;
-    }
-    #image {
-        order: -1;
-    }
-    #image {
-        width: 60vw;
-    }
-    #about-me{
-        width: 80vw;
-    }
-    .h2{
-        font-size: 1.1rem;
-     }
-     .h3{
-         font-size: 1rem;
-     }
-     .li{
-         font-size: 0.8rem;
-     }
-     .p{
-         font-size: 0.8rem;
-     }
+.main{
+    background-color: #59a454;
+    color: #f5f5f5;
+    font-size: 3rem;
 }
+.navbar-nav > li{
+    padding-left:70vw;
+   
+  }
 
+  .navbar{
+      background-color: #67b48a;
+  }
+  .pro{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 2rem;
+      color: #f5f5f5;
+  }
+  .image{
+      padding-left: 40%;
+      padding-right: 40%;
+  }
+  .col{
+      font-size: 1rem;
+     
+  }
+  .container{
+    border: 3px solid #fa0000;
+    min-height: 100%;
+    height: 100%;
+    background-color: #dfdfdf;
+}
+.name{
+    margin-top: 2%;
+    padding-left: 2%;
+}
+.mesg{
+    margin-top: 2%;
+    padding-left: 2.5%;
+}
+.time{
+    margin-top: 3%;
+    padding-left: 0%;
+}
+.photo{
+    background-color: blue;
+}
