@@ -1,0 +1,111 @@
+:root{
+    font-size: 20px;
+}
+body{
+    background-color: aliceblue;
+}
+.row{
+    display: flex;
+    flex-wrap: row;
+    border: 3px solid blueviolet;
+    background-color: blueviolet;
+  
+}
+.remaining{
+    margin-left: 65%;
+    color: white;
+}
+h2{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+}
+.home{
+    margin-left: 2%;
+    color: white;
+}
+.ref{
+    color:white;
+}
+.btn{
+    visibility: hidden;
+}
+@media only screen and (min-width:1050) {
+
+
+    .onclick{
+        visibility: hidden;
+    }
+
+}
+@media only screen and (min-width:745px) and (max-width: 1050px) {
+    .remaining{
+        display: none;
+    }
+
+    .btn{
+        visibility: visible;
+    }
+    .button{
+        margin-left: 85vw;
+    }
+}
+@media only screen and (min-width:542px) and (max-width: 745px) {
+    .remaining{
+        display: none;
+    }
+
+    .btn{
+        visibility: visible;
+    }
+    .button{
+        margin-left: 80vw;
+    }
+    h2{
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 5%;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 542px) {
+    .remaining{
+        display: none;
+    }
+
+    .btn{
+        visibility: visible;
+    }
+    .button{
+        margin-left: 75vw;
+    }
+    h2{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+    }
+}
+@media only screen and  (max-width: 420px) {
+    .remaining{
+        display: none;
+    }
+
+    .btn{
+        visibility: visible;
+    }
+    .button{
+        margin-left: 65vw;
+    }
+    h2{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        font-size: 1rem;
+    }
+}
+.onclick{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid blueviolet;
+    background-color: blueviolet;
+    padding-left: 70vw;
+}

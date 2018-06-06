@@ -1,0 +1,34 @@
+:root{
+    font-size: 20px;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    background-color: aliceblue;
+    height: 100vh;
+    flex-direction: column;
+}
+.heading{
+    position: relative;
+    padding-left: 30%;
+    padding-top: 5%;
+    padding-right: 30%;
+    font-size: 1.5rem;
+    
+}
+.btn{
+    position: relative;
+    font-size: 1.5rem;
+    background-color: blueviolet;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+.collapse{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 1%;
+    border: 3px solid salmon;
+}
