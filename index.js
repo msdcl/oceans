@@ -126,7 +126,7 @@ let getMovieData = () => {
                    
                     if (input == data.imdbID) {
                             $('.third').show();
-                            $('#third').show();
+                            $('#third').html(tempData);
                     } else {
                         let tempData = `<div class="col-12">
                         <div class="card" style="width: 80vw;"> 
