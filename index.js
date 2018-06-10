@@ -49,6 +49,7 @@ let getMovieData = () => {
     if(input=='' || input==undefined || input==null){
         alert("Please enter valid input");
     }else{
+        input=input.trim();
         $.ajax({
             type: 'Get',
             dataType: 'json',
@@ -94,7 +95,7 @@ let getMovieData = () => {
                     </div>`;
                 if (y == 1) {
                    
-                    if ((input.toLowerCase()).trim() == (data.Title).toLowerCase()) {
+                    if ((input.toLowerCase()) == (data.Title).toLowerCase()) {
                         
                         $('.third').show();
                         $('#third').html(tempData);
@@ -109,7 +110,7 @@ let getMovieData = () => {
                     }
                 } else if (y == 2) {
                    
-                    if (input.trim() == data.Year) {
+                    if (input == data.Year) {
                         $('.third').show();
                         $('#third').html(tempData);
                     } else {
