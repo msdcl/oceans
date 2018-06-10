@@ -53,7 +53,7 @@ let getMovieData = () => {
             type: 'Get',
             dataType: 'json',
             async: true,
-            url: 'http://www.omdbapi.com/?i=tt3896198&apikey=3749465e',
+            url: 'https://www.omdbapi.com/?i=tt3896198&apikey=3749465e',
             success: (data) => {
                 console.log(data);
                 let image = 'hindi-movies.png';
