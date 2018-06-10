@@ -94,7 +94,7 @@ let getMovieData = () => {
                     </div>`;
                 if (y == 1) {
                    
-                    if (input.toLowerCase() == (data.Title).toLowerCase()) {
+                    if ((input.toLowerCase()).trim() == (data.Title).toLowerCase()) {
                         
                         $('.third').show();
                         $('#third').html(tempData);
@@ -109,7 +109,7 @@ let getMovieData = () => {
                     }
                 } else if (y == 2) {
                    
-                    if (input == data.Year) {
+                    if (input.trim() == data.Year) {
                         $('.third').show();
                         $('#third').html(tempData);
                     } else {
